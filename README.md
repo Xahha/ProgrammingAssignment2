@@ -96,7 +96,7 @@ function.
             m
     }
 
-### Assignment: Caching the Inverse of a MatrixcacheSolve <- function(x, ...) {
+cacheSolve <- function(x, ...) {
   
   m <- x$getInverse()
   
